@@ -1,48 +1,32 @@
 # 911 Call Data Analysis
 
-## 📌 Overview
-This project performs exploratory data analysis (EDA) on Baltimore 911 emergency call data to uncover patterns, trends, and insights that can support public safety decision making. The analysis focuses on temporal trends, call type distributions, and overall emergency service demand.
+## Overview
+This project analyzes real-world 911 emergency call data to uncover patterns in call volume, call types, and temporal trends. The goal is to derive insights that can support public safety planning, resource allocation, and operational decision making.
 
-## 🎯 Objectives
-- Analyze historical 911 call data for Baltimore
-- Identify patterns by time (hour, day, month)
-- Explore distributions of different call reasons
-- Visualize insights that can support resource planning and decision making
+Rather than focusing only on modeling, this project emphasizes exploratory analysis and interpretation of data to understand how emergency services are utilized over time.
 
-## 🧠 Approach
-- Loaded and cleaned the 911 call dataset using Python and pandas
-- Conducted exploratory data analysis to understand call volume and trends
-- Created visualizations to analyze temporal and categorical patterns
-- Summarized insights using plots and presentation slides
+## Problem Context
+Emergency response agencies receive large volumes of calls daily, making it difficult to identify trends that inform staffing, preparedness, and response strategies. Understanding when calls peak, which types of emergencies are most common, and how patterns vary over time is critical for effective decision support.
 
-## 🛠 Tools & Technologies
-- **Language:** Python  
-- **Libraries:** pandas, matplotlib, seaborn  
-- **Environment:** Jupyter Notebook  
+## Approach
+- Cleaned and prepared raw 911 call data for analysis
+- Performed exploratory data analysis to understand call distributions
+- Analyzed temporal patterns (hourly, daily, monthly trends)
+- Examined frequency of different emergency call categories
+- Visualized key patterns to make insights easily interpretable
 
-## 📊 Key Insights
-- Identified peak hours and days with high emergency call volumes
-- Analyzed major categories of 911 calls and their frequency
-- Observed temporal trends that indicate changing demand patterns over time
+## Tools & Technologies
+- Python  
+- pandas, NumPy  
+- Data visualization libraries (matplotlib / seaborn)
 
-## 📁 Repository Contents
-This repository includes:
-- Jupyter notebook containing the full exploratory analysis
-- Image files with visualizations generated during analysis
-- Presentation slides summarizing key findings
-- This README file for documentation
+## Key Insights
+- Identified peak call times that may require increased staffing
+- Observed dominant emergency call categories and their trends
+- Revealed seasonal and time-based variations in emergency activity
+- Demonstrated how exploratory analytics can support operational decisions
 
-## 🚀 How to Explore
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/parthd2804/911-call-data-analysis.git
-2. Open the Jupyter notebook
-   jupyter notebook baltimore911calls.ipynb
-3. Review the visualizations and analysis in the notebook
-
-## 📈 Future Improvements
-- Extend the analysis with interactive dashboards
-- Integrate geographic mapping (e.g., folium maps)
-- Perform clustering to identify high-frequency call areas
-
-
+## Notes & Future Improvements
+- Incorporate geographic analysis to identify regional hotspots
+- Apply predictive modeling to forecast future call volumes
+- Integrate external factors (weather, events) to enrich insights
